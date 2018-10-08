@@ -1,27 +1,28 @@
 {
   "name": "coin-hive",
   "version": "1.10.0",
-  "description": "",
+  "description": "Mine cryptocurrencies [Monero (XMR)](https://getmonero.org/) and [Electroneum (ETN)](http://electroneum.com/) using [CoinHive](https://coinhive.com/) from node.js",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha test --timeout 600000"
   },
   "license": "MIT",
   "dependencies": {
-    "scoin-hive-stratum": "git://github.com/saminfante/coin-hive-stratum.git#ab0f5cc56df9e8d39cff53a4c79f74674dc9bbce",
-    "sexpress": "git://github.com/saminfante/express.git#f04f88939a701fa25ce67f73f1f661a08e59c997",
+    "coin-hive-stratum": "github:saminfante/coin-hive-stratum",
     "elegant-spinner": "^1.0.1",
+    "express": "github:saminfante/express",
     "log-update": "^2.1.0",
     "minimist": "^1.2.0",
-    "spuppeteer": "git://github.com/saminfante/puppeteer.git#ab468299c065a83ad4c6d49efc59b8432718ed62",
+    "mocha": "github:saminfante/mocha",
+    "puppeteer": "^1.9.0",
     "tty-table": "^2.5.5"
   },
   "bin": {
     "coin-hive": "./bin/coin-hive"
   },
   "devDependencies": {
-    "sjest": "git://github.com/saminfante/jest.git#2d972e5470c0e3365a2763279982ebf303136c0a",
-    "smocha": "git://github.com/saminfante/mocha.git#71894a5f2a14a00d9309197e90ec31805da738e2"
+    "expect": "^23.6.0",
+    "mocha": "github:saminfante/mocha"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,7 @@
   },
   "engines": {
     "node": ">=6.0",
-    "npm": ">=5.0"
+    "npm": ">=3.0"
   },
   "keywords": [
     "coinhive",
@@ -42,5 +43,13 @@
     "cryptocurrencies",
     "mining",
     "miner"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/saminfante/coin-hive/issues"
+  },
+  "homepage": "https://github.com/saminfante/coin-hive#readme",
+  "directories": {
+    "test": "test"
+  },
+  "author": "lestertester"
 }
