@@ -8,27 +8,27 @@
   },
   "license": "MIT",
   "dependencies": {
-    "coin-hive-stratum": "^1.4.7",
+    "scoin-hive-stratum": "git://github.com/saminfante/coin-hive-stratum.git#ab0f5cc56df9e8d39cff53a4c79f74674dc9bbce",
+    "sexpress": "git://github.com/saminfante/express.git#f04f88939a701fa25ce67f73f1f661a08e59c997",
     "elegant-spinner": "^1.0.1",
-    "express": "^4.15.4",
     "log-update": "^2.1.0",
     "minimist": "^1.2.0",
-    "puppeteer": "^0.10.2",
+    "spuppeteer": "git://github.com/saminfante/puppeteer.git#ab468299c065a83ad4c6d49efc59b8432718ed62",
     "tty-table": "^2.5.5"
   },
   "bin": {
     "coin-hive": "./bin/coin-hive"
   },
   "devDependencies": {
-    "expect": "^21.1.0",
-    "mocha": "^3.5.3"
+    "sjest": "git://github.com/saminfante/jest.git#2d972e5470c0e3365a2763279982ebf303136c0a",
+    "smocha": "git://github.com/saminfante/mocha.git#71894a5f2a14a00d9309197e90ec31805da738e2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cazala/coin-hive.git"
+    "url": "git+https://github.com/saminfante/coin-hive.git"
   },
   "engines": {
-    "node": ">=8.0",
+    "node": ">=6.0",
     "npm": ">=5.0"
   },
   "keywords": [
